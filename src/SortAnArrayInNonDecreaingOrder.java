@@ -13,4 +13,5 @@ public class SortAnArrayInNonDecreaingOrder {
             int n = 5;
             System.out.println(isSorted(n,a));
         }
+
 }
