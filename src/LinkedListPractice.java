@@ -1,18 +1,15 @@
-import java.util.ArrayList;
 import java.util.Iterator;
-import java.util.List;
+import java.util.LinkedList;
 
-public class ArrayListPractice {
+public class LinkedListPractice {
     public static void main (String [] args){
-        List<Integer> l1 = new ArrayList<>();
+        LinkedList<Integer> l1 = new LinkedList<>();
         l1.add(1);
         l1.add(2);
-        l1.add(3);
 
         Iterator<Integer> itr = l1.listIterator();
-
         while(itr.hasNext()){
             System.out.println(itr.next());
         }
-    }
+     }
 }
