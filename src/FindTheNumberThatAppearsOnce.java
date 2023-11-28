@@ -5,7 +5,7 @@ public class FindTheNumberThatAppearsOnce {
 
         for(int i = 0 ; i < n ; i++ ){
             xorr = xorr ^ arr[i];
-        }
+         }
         return xorr;
     }
 
